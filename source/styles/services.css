@@ -1,0 +1,43 @@
+#services {
+    background-color: #303030;
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    background-color: white;
+    width: 508px;
+    height: 72px;
+    border: 0px;
+    margin: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+#services-title {
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    margin: 30px auto 0;
+    display: block;
+    border: 0;
+    background-color: #C07212;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #db8a26;
+    transform:translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #24363d59;
+}
